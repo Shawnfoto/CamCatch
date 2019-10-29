@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
-    "name": "cambly Grab",
-    "description": "Grab the contents of the cambly dialog",
+    "name": "CamCatch",
+    "description": "Catch the contents of the course message",
     "version": "1.0.0",
     "icons": {
       "16": "CamCatch-16.png",

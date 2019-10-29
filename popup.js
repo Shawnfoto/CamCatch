@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
   const openLink = document.querySelector("#link-open");
   openLink.addEventListener("click", function() {
-    openPage("https://github.com/Shawnfoto");
+    openPage("https://github.com/Shawnfoto/CamCatch");
   });
 });
 
