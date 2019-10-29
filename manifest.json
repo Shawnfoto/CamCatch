@@ -4,12 +4,12 @@
     "description": "Grab the contents of the cambly dialog",
     "version": "1.0.0",
     "icons": {
-      "16": "icon.png",
-      "48": "icon.png",
-      "128": "icon.png"
+      "16": "CamCatch-16.png",
+      "48": "CamCatch-48.png",
+      "128": "CamCatch.png"
     },
     "browser_action": {
-      "default_icon": "icon.png",
+      "default_icon": "CamCatch.png",
       "default_popup": "popup.html"
     },
     "permissions": [

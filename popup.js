@@ -4,10 +4,12 @@ document.addEventListener("DOMContentLoaded", function() {
       chrome.tabs.sendMessage(tabs[0].id, { action: "Grab" }, function(
         response
       ) {
+        const recordUl = document.querySelector(".record ul");
         if (response.msgArr.length === 0) return;
+        if (recordUl.children.length > 0) return;
         const msgArr = response.msgArr;
         // const msgArr = ["AGri", "Angry"];
-        const recordUl = document.querySelector(".record ul");
+
         for (let i = 0; i < msgArr.length; i++) {
           let li = document.createElement("li");
           li.innerText = msgArr[i];
@@ -23,7 +25,6 @@ document.addEventListener("DOMContentLoaded", function() {
   openLink.addEventListener("click", function() {
     openPage("https://github.com/Shawnfoto");
   });
-
 });
 
 const openPage = function(url) {
