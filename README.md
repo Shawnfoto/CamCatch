@@ -1,5 +1,5 @@
 # CamCatch
-
+Chrome web store: https://chrome.google.com/webstore/search/camcatch?hl=zh-TW
 ## Introduction
 CamCatch is a chrome extension.  
 
